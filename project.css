@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* first page */
+.mick-icon-coloring{
+  color:#1fa32c;
+}
+.nxt-talk-heading-styling{
+  padding:30px;
+  font-family:Sans-serif;
+  color:white;
+}
+.ovbg{
+  background-image: linear-gradient(to right,#5d635d,white);
+  height:100vh;
+}
+.about-the-podcast{
+  color:white;
+  font-size:70px;
+}
+.watch-trailer-button{
+  color:white;
+  background-color:transparent;
+  border-color:white;
+  border-radius:5px;
+}
+.page1-button{
+  width:500px;
+  margin-top:30px;
+}
+
+/*first page end here */
+
+/* second page */
+
+.page2-background-color{
+  background-color:#0F172A;
+  width:100vw;
+  height:100vh;
+}
+.page2-main-heading{
+  color:white;
+  font-weight:bold;
+  text-align: center;
+  font-size:60px;
+  margin-top:50px;
+  margin-left:300px;
+}
+
+
+body {
+  background: #0b1a2e; /* dark background like your screenshot */
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.logo-slider {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 logos per row */
+  grid-gap: 40px;
+  justify-items: center;
+  align-items: center;
+  margin: 0 50px; /* space between sets */
+}
+
+.logo-grid img {
+  max-width: 120px;
+  transition: transform 0.3s ease;
+}
+
+.logo-grid img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/*second page ends here*/
+
+
+
+
+/* third page start here */
+.page3-overall-background {
+  background-color: #293142;
+  width: 100vw;
+  height: 200vh;
+}
+
+.page3-main-heading{
+  margin-top: 100px;
+  text-align:center;
+  font-size:500px;
+  font-weight: bold;
+}
+.page3-para-content{
+  margin-top: 100px;
+  text-align:center;
+  margin-top:50px;
+}
+
+.page3-button{
+  background-color: transparent;
+  border-radius:50px;
+  border-color:white;
+  color:white;
+  margin-right:20px;
+}
+
+.image-sizing-page3{
+  height:200px;
+  width:300px;
+}
+.image-card-page3{
+  background-color: #334155;
+  color:white;
+  font-weight:bold;
+  height:200px;
+  width:300px;
+  margin-left:23px;
+  height:300px;
+}
+.page3-card-modal{
+  color:blue;
+}
+.page3-modal-image-sizing{
+  height:60px;
+  width:80px;
+  border-radius:50px;
+}
+.page3-modal-background-color{
+  background-color: #334155 !important;
+}
+
+/*third */
+
+
+/* forth page styling */
+
+.page4-overall-bg{
+  background-color: #0f172a;
+}
+
+.page4-main-heading-styling{
+  color:white;
+  margin:100px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+
+
+.page4-happy-feedback-styling {
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid orange; /* Added width + style + color */
+  padding: 10px 20px; /* Optional: adds spacing */
+  cursor: pointer; /* Optional: makes it clickable */
+  color:orange;
+}
+
+.page4-feedback-cards{
+  background-color: #334155;
+  height:30vh;
+  width:80vh;
+  margin-left:300px;
+  margin-top:60px;
+  border-radius:10px;
+}
+/* forth page */
+
+
+
+/* fifth page styling */
+.page5-overall-bg{
+  background-color: #334155;
+  height:100vh;
+  color:white;
+  font-weight:bold;
+
+}
+
+
+.page5-heading-styling{
+  margin-top:60px;
+  text-align:left;
+  margin-left:150px;
+}
+
+
+.page5-para-elements{
+  font-size:30px;
+  text-align:left;
+  margin-left:150px;
+  margin-top:40px;
+}
+
+.page5-button-styling{
+  margin-left:150px;
+  width:60vh;
+  margin-top:40px;
+}
+
+/* fifth page */
+
+
+/* sixth page styling */
+.page6-overall-styling{
+  background-color: #0F172A;
+  color:white;
+  height:50vh;
+  width:100vh;
+}
+/* box model content */
+body {
+  background-color: #0F172A; /* Dark background */
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.form-box {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+input, select {
+  background-color: #1E293B;
+  color: white;
+}
+
+input::placeholder {
+  color: #94A3B8;
+}
+
+.phone-input {
+  display: flex;
+  gap: 5px;
+}
+
+.phone-input select {
+  flex: 1;
+}
+
+.phone-input input {
+  flex: 2;
+}
+
+button {
+  width: 100%;
+  background-color: #2563EB;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  background-color: #1D4ED8;
+}
+/* box model content */
+
+
+/* sixth page */
+
+
+/* seventh page */
+
+.page7-overall-bg{
+  background-color:#334155;
+  height:10vh;
+  width:100vh;
+
+}
+
+.page7-content{
+  margin-top:20px;
+}
+/* seven page */
+
+
+
+
+/* eight page */
+
+.page8-background-color{
+  background-color: #0F172A;
+  height:90vh;
+  color:#94A3B8;
+
+}
+
+.page8-image-positioning{
+  margin-top:50px;
+  margin-right:700px;
+  height:100px;
+  width:150px;
+}
+
+.page8-content-positioning{
+  margin-top:50px;
+  margin-right:700px;
+}
+
+.payment-method-images{
+  height:100px;
+  width:100px;
+  border-radius:10px;
+  margin:20px;
+}
+
+
